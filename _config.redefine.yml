@@ -190,12 +190,13 @@ navbar:
     About: 
       icon: fa-regular fa-user
       submenus:
-        Me: /about 
+        Me: /about
         Github: https://github.com/Petalzu 
-        Blog:  
-        Friends: /friends 
-    #Links: 
-    #  icon: fa-regular fa-link
+        #Blog:  
+        #Friends: /friends 
+    Links: 
+      icon: fa-regular fa-link
+      path: /links/
     #  submenus:
     #    Link1: https://royenheart.com/
     #     Link2: /link2
