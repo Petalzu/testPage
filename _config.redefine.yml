@@ -150,14 +150,14 @@ home_banner:
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links
     links:
-      github:  # your GitHub URL
+      github: https://github.com/Petalzu  # your GitHub URL
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
-      email:  # your email
+      email: Petalzu@outlook.com # your email
       # ...... # you can add more
     # Social links with QRcode drawers
     qrs:
@@ -194,10 +194,10 @@ navbar:
         Github: https://github.com/Petalzu 
         Blog:  
         Friends: /friends 
-    # Links: 
-    #   icon: fa-regular fa-link
-    #   submenus:
-    #     Link1: /link1
+    #Links: 
+    #  icon: fa-regular fa-link
+    #  submenus:
+    #    Link1: https://royenheart.com/
     #     Link2: /link2
     #     Link3: /link3
     # ...... # you can add more
@@ -314,7 +314,7 @@ comment:
   config:
     # Waline comment system. See https://waline.js.org/
     waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      serverUrl: https://vercel.petalzu.top/ # Waline server URL. e.g. https://example.example.com
       lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: wasd # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
