@@ -111,8 +111,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/freecompress-bg-light.webp # light mode
+    dark: /images/freecompress-bg-dark.webp # dark mode
   # Home banner title
   title: Face the fear, create the future.
   # Home banner subtitle
