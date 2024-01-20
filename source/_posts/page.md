@@ -1,6 +1,7 @@
 ---
 title: 你好
 date: 2024-01-19 22:28:42
-type: article
+categories: [note]
+tags: [hello world]
 ---
 这是我的第一篇文章，欢迎访问我的个人网站
