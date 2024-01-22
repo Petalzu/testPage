@@ -23,11 +23,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: https://avatars.githubusercontent.com/u/106128925?s=400&u=5e517fca4d9246936987767c19916966ad930a4f&v=4
+  favicon: /images/106128925.webp
   # Site logo
   logo: 
   # Site avatar
-  avatar: https://avatars.githubusercontent.com/u/106128925?s=400&u=5e517fca4d9246936987767c19916966ad930a4f&v=4
+  avatar: /images/106128925.webp
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -187,6 +187,9 @@ navbar:
     #Status: 
     #  path: https://status.ohevan.com/
     #  icon: fa-regular fa-chart-bar
+    相册: #取名随意
+      icon: fa-solid fa-image #图标
+      path: /masonry/
     About: 
       icon: fa-regular fa-user
       submenus:
