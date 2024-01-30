@@ -288,7 +288,6 @@ std::cout << "File reading took " << duration.count() << " milliseconds\n";
         MPI_Send(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 2, 0, MPI_COMM_WORLD);
     }
     if (rank == 2) {
-        //接收rank1的结果当做prev_md
         uint8_t prev_md[SHA512_DIGEST_LENGTH];
         MPI_Recv(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         
@@ -302,7 +301,6 @@ std::cout << "File reading took " << duration.count() << " milliseconds\n";
         MPI_Send(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 3, 0, MPI_COMM_WORLD);
     }
     if (rank == 3) {
-        //接收rank2的结果当做prev_md
         uint8_t prev_md[SHA512_DIGEST_LENGTH];
         MPI_Recv(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 2, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         
@@ -316,7 +314,6 @@ std::cout << "File reading took " << duration.count() << " milliseconds\n";
         MPI_Send(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 4, 0, MPI_COMM_WORLD);
     }
     if (rank == 4) {
-        //接收rank3的结果当做prev_md
         uint8_t prev_md[SHA512_DIGEST_LENGTH];
         MPI_Recv(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 3, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         
@@ -330,7 +327,6 @@ std::cout << "File reading took " << duration.count() << " milliseconds\n";
         MPI_Send(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 5, 0, MPI_COMM_WORLD);
     }
     if (rank == 5) {
-        //接收rank4的结果当做prev_md
         uint8_t prev_md[SHA512_DIGEST_LENGTH];
         MPI_Recv(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 4, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         
@@ -344,7 +340,6 @@ std::cout << "File reading took " << duration.count() << " milliseconds\n";
         MPI_Send(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 6, 0, MPI_COMM_WORLD);
     }
     if (rank == 6) {
-        //接收rank5的结果当做prev_md
         uint8_t prev_md[SHA512_DIGEST_LENGTH];
         MPI_Recv(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 5, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         
@@ -358,7 +353,6 @@ std::cout << "File reading took " << duration.count() << " milliseconds\n";
         MPI_Send(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 7, 0, MPI_COMM_WORLD);
     }
     if (rank == 7) {
-        //接收rank6的结果当做prev_md
         uint8_t prev_md[SHA512_DIGEST_LENGTH];
         MPI_Recv(prev_md, SHA512_DIGEST_LENGTH, MPI_BYTE, 6, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
         
@@ -766,7 +760,6 @@ void process_with_period(double vr, double one, double *x, int64_t n, int64_t it
     __m512d v_vr = _mm512_set1_pd(vr);
     __m512d v_one = _mm512_set1_pd(one);
 
-    // Your existing code
     std::unordered_map<int64_t, double> history;
     double vxt = x[0];
     int64_t period = 0;
