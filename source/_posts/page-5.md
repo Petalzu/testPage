@@ -7,7 +7,7 @@ categories: [笔记]
 
 今年的1月23日到30日，我线上参加了第一届[PKU HPCGame](https://hpcgame.pku.edu.cn/org/2df8f692-0316-4682-80cd-591732b1eda6/contest/7250a2f0-3c1e-4aaf-91a1-ccc4339ef00d)，这是一场由北京大学计算中心等组织举办的个人超算竞赛。
 
-题解情况如下：AC题目 A,B,C,D,F,I,L ; E和H 拿到部分分数；J,K,M,N 无解。这篇WriteUp主要是对我解决的题目的记录，以及一些解题思路的总结。
+题解情况如下：AC题目 A,B,C,D,F,I,L ; E,G,H 拿到部分分数；J,K,M,N 无解。这篇WriteUp主要是对我解决的题目的记录，以及一些解题思路的总结。
 
 ## A. 欢迎参赛！
 签到
