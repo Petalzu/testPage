@@ -1,6 +1,6 @@
 ---
 title: Petal 人物设定
-date: 2024-01-20 10:16:20
+date: 2023-01-01 10:16:20
 tags: [Petal]
 cover: /images/petal.webp
 categories: [散文]

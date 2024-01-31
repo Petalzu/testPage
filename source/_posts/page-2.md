@@ -1,6 +1,6 @@
 ---
 title: 蜃景
-date: 2024-01-20 10:16:28
+date: 2023-02-14 10:16:28
 tags: [Touhou Project]
 categories: [同人文]
 author: Petal
