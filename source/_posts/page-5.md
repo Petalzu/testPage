@@ -263,6 +263,6 @@ if __name__ == '__main__':
 一共32个，如果时间充裕随便玩玩也能试出来。
 
 ## 总结
-这次总score为3050，其中 AI：100 ， binary：250 ， general：1700 ， math：200 ， web：800 ，总rank 218 / 2381。我做出来的基本上都是一些比较简单的题目，更困难的题只能眠了，总的来说是很棒的比赛。
+这次做出来的基本上都是一些比较简单的题目，更困难的题只能眠了，总的来说是很棒的比赛。
 
 一些内容引用 [Hackergame 2023 官方writeup](https://github.com/USTC-Hackergame/hackergame2023-writeups)，对更多题目题解感兴趣的朋友可以看看。
