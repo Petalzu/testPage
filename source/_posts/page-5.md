@@ -1,5 +1,5 @@
 ---
-title: 第一届PKU HPCGame WriteUp
+title: 2024 1st PKU HPCGame WriteUp
 date: 2024-01-30 18:02:04
 tags: [HPC,超算,HPCgame]
 categories: [笔记]
