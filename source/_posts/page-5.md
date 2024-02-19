@@ -886,10 +886,10 @@ int main()
 
 
 ## J. H-66
-等一个官方writeup
+[官方题解](https://github.com/lcpu-club/hpcgame_1st_problems/blob/master/1st_j_hubbard/answer/answer.cpp)
 
 ## K. 光之游戏
-同上
+[官方题解](https://github.com/lcpu-club/hpcgame_1st_problems/blob/master/1st_k_radiosity/answer/answer.cpp)
 
 ## L. 洪水困兽
 我们提供了一个 Handout，提供了串行版本代码和测试数据。你需要在 Handout 的基础上，使用 OpenMP 实现并行化的 particle2grid 过程。以下是对这一过程算法的详细介绍。
@@ -1024,9 +1024,9 @@ int main(int argc, char *argv[]) {
 ~一核有难，多核围观.jpg~
 
 ## M. RISC-V OPENBLAS
-这一部分因为对riscv不熟悉，所以不进行尝试
+[官方题解](https://github.com/lcpu-club/hpcgame_1st_problems/tree/master/1st_m_riscv_openblas)
 ## N. RISC-V LLM
-同上
+[官方题解](https://github.com/lcpu-club/hpcgame_1st_problems/tree/master/1st_n_riscv_llm)
 
 ## 总结
 整体体验下来非常好，题目很有意思，分配的计算资源也很充足。虽然服务器不太稳定，但组委会的成员解决问题都很及时，总体来说是一场很棒的比赛。参加这次比赛收获良多，自身也有很多不足的地方，总之还是要多多学习，明年再来。 /heart

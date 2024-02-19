@@ -6,7 +6,7 @@ type: links
 
 ### 如何交换友链
 
-请按以下格式发送邮件至[邮箱](petalzu@qq.com)
+请按以下格式发送邮件至[邮箱](satolia@163.com)
 
 ```yaml
 - name: 名字
