@@ -1,7 +1,7 @@
 ---
 title: Petal 人物设定
 date: 2023-01-01 10:16:20
-tags: [Petal]
+tags: [Petal,Touhou Project]
 cover: /images/petal.webp
 categories: [散文]
 excerpt: 她就是存在的第三部分，犹如盔甲般包裹着她的深沉而疲惫的寂静慢慢沁入房间，她深吸一口气，等待着它如同结晶的冰霜般张牙舞爪地显现出来，将原本温馨的气氛吞噬干净。她细心聆听着思想的声音，静静等待命运如同受惊的黑鸟一样飞走。这份耐心如同...
