@@ -5,7 +5,6 @@ tags: [HPC,超算,HPCgame]
 categories: [笔记]
 thumbnail: /images/hpcgame-2024.jpg
 ---
-<meta name='description' content='2024 1st PKU HPCGame WriteUp'>
 
 今年参加了第一届[PKU HPCGame](https://hpcgame.pku.edu.cn/org/2df8f692-0316-4682-80cd-591732b1eda6/contest/7250a2f0-3c1e-4aaf-91a1-ccc4339ef00d)，这是一场由北京大学计算中心等组织举办的个人超算竞赛。
 

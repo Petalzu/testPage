@@ -5,7 +5,6 @@ tags: [CTF,Hackergame]
 categories: [笔记]
 thumbnail: /images/hg2023/title.jpg
 ---
-<meta name='description' content='2023 Hackergame WriteUp'>
 
 总结一下参与[2023 Hackergame](https://hack.lug.ustc.edu.cn/)的一些题目的WriteUp。本来早该写来着，结果因为换博客框架一直拖到现在，算是补档了，rip。
 
