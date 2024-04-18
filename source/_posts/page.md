@@ -4,6 +4,7 @@ date: 2023-01-01 00:00:00
 categories: [笔记]
 tags: [hello world]
 sticky: 999
+thumbnail: /images/wallhaven-wqery6-dark.webp
 ---
 直面恐惧，创造未来。
 
@@ -12,3 +13,165 @@ sticky: 999
 关于本站主题的更多信息：[Theme Redefine](https://redefine-docs.ohevan.com/)
 
 关于本站框架：[Hexo](https://hexo.io/zh-cn/)
+
+## 如何在GitHub Pages上部署 Redefine
+### 本地部署
+在本地建立hexo文件夹，安装以下应用程序：  
+
+Node.js (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)  
+Git  
+
+执行如下命令：
+```bash
+$ npm install hexo
+```
+添加Hexo 所在的目录下的 node_modules 添加到环境变量之中  
+
+在想要建立hexo的 <folder>下执行如下命令：
+```bash
+$ hexo init <folder>
+$ cd <folder>
+$ npm install
+```
+
+在 Hexo 根目录执行以下命令安装主题，有两种方式：
+```bash
+npm install hexo-theme-redefine@latest #推荐
+git clone https://github.com/EvanNotFound/hexo-theme-redefine.git themes/redefine
+```
+
+在 Hexo 根目录的 _config.yml 文件中，将 theme 值修改为 redefine：
+```_config.yml
+theme: redefine
+```
+
+在 Hexo 根目录下创建 _config.redefine.yml 文件，添加如下内容：
+[_config.redefine.yml](https://github.com/EvanNotFound/hexo-theme-redefine/blob/main/_config.yml)
+
+添加新页：
+```bash
+$ hexo new page
+```
+
+启动hexo服务器，访问 localhost:4000 查看效果：
+```bash
+$ hexo server
+```
+
+其他主题配置请参考[Redefine快速开始](https://redefine-docs.ohevan.com/getting-started)
+
+
+### 推送
+建立存储库，名为 <你的 GitHub 用户名>.github.io
+
+将 main 分支 push 到 GitHub仓库：
+```bash
+$ git push -u origin main
+```
+或者使用GitHub Desktop等工具进行推送。
+
+使用 node --version 指令检查你电脑上的 Node.js 版本，并记下该版本 (例如：v18.16.0)  
+在储存库中前往 Settings > Pages > Source，并将 Source 改为 GitHub Actions。  
+在储存库中建立 .github/workflows/pages.yml，并填入以下内容 (将 18.16.0 替换为上个步骤中记下的版本)：  
+```.github/workflows/pages.yml
+#注：hexo官网上的wf文件配置出现了问题，因此我手动修改了一部分，以下是我自己使用的文件
+name: Pages
+
+on:
+  push:
+    branches:
+      - master # default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If your repository depends on submodule, please see: https://github.com/actions/checkout
+          submodules: recursive
+      - name: Use Node.js 18.16.0
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.0'
+      - name: Cache NPM dependencies
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./public
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+```
+
+添加 CNAME 文件 在/source文件夹下，内容为你的域名，例如：
+```CNAME
+petalzu.top #替换为你的域名
+```
+
+检查 https://<你的 GitHub 用户名>.github.io 或 https://<你的域名> 是否已经部署成功。
+
+## Cloudflare CDN 加速访问和保护网站
+需要域名
+
+### Cloudflare 解析
+将域名导入cloudflare，设置DNS解析，并在域名供应商处修改DNS服务器为cloudflare提供的DNS服务器。
+
+配置 DNSSEC，勾选其他cloudflare提供的安全选项。
+
+### Cloudflare WAF 配置
+创建如下规则，并对表达式或选项进行如下配置：
+
+<img src="/images/page/1.jpg" alt="neuro" width="50%">
+&nbsp;
+
+放行搜索引擎爬虫
+```放行搜索引擎爬虫
+(cf.client.bot) or (cf.verified_bot_category eq "Search Engine Crawler") or (cf.verified_bot_category eq "Monitoring & Analytics") or (cf.verified_bot_category eq "Page Preview") or (cf.verified_bot_category eq "Advertising & Marketing")
+```
+选择操作：跳过
+
+&nbsp;
+质询
+```质询
+(http.host eq "你的域名") or (http.host eq "你的子域名")
+```
+选择操作：交互式质询
+
+## 其他
+### 问题
+- Redefine v2.6.1 疑似与 hexo-renderer-marked 6.3.0版本不兼容
+- Redefine v2.6.1 页脚部署时间计算以及页面浏览量 与 Cloudflare Rocket Loader不兼容，建议关闭
+- 在hexo server中显示标签/分类/文章数目混乱，以及出现已删除的页面的情况，关闭server并使用如下命令：
+```bash
+$ hexo clean
+```
+
+### 建议
+除有必要，否则不推荐一键部署
+
+## 参考文档
+[在 GitHub Pages 上部署 Hexo](https://hexo.io/zh-cn/docs/github-pages)  
+[Redefine快速开始](https://redefine-docs.ohevan.com/getting-started)  
+[配置CloudFlare WAF强制交互式质询让你的网站稳如泰山](https://sharpgan.com/using-cloudflare-waf-to-protect-your-website/)  
