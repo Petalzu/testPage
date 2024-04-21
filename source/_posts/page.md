@@ -5,6 +5,7 @@ categories: [笔记]
 tags: [hello world]
 sticky: 999
 thumbnail: /images/wallhaven-wqery6-dark.webp
+expires: 2024-04-21 16:34
 ---
 直面恐惧，创造未来。
 
@@ -141,16 +142,17 @@ petalzu.top #替换为你的域名
 配置 DNSSEC，勾选其他cloudflare提供的安全选项。
 
 ### Cloudflare WAF 配置
+#### 严格配置
 创建如下规则，并对表达式或选项进行如下配置：
 
 <img src="/images/page/1.jpg" alt="neuro" width="50%">
 &nbsp;
 
-放行搜索引擎爬虫
-```放行搜索引擎爬虫
+放行爬虫
+```放行爬虫
 (cf.client.bot) or (cf.verified_bot_category eq "Search Engine Crawler") or (cf.verified_bot_category eq "Monitoring & Analytics") or (cf.verified_bot_category eq "Page Preview") or (cf.verified_bot_category eq "Advertising & Marketing")
 ```
-选择操作：跳过
+选择操作：跳过 所有其余自定义规则
 
 &nbsp;
 质询
@@ -158,6 +160,58 @@ petalzu.top #替换为你的域名
 (http.host eq "你的域名") or (http.host eq "你的子域名")
 ```
 选择操作：交互式质询
+
+#### 较为宽松的配置
+严格配置会带来很多问题，最明显的就是访问网站的速度变慢，需要用户操作，所以可以使用更加用户友好的托管质询。
+托管质询可以自动判断是使用JS质询还是交互式质询，这几种质询方式的区别可以参照[Cloudflare五秒盾、JS质询、托管质询以及交互式质询的区别](https://lot.pm/cloudflare-challenge.html)。
+为了进一步防止隐患，可以规定更多的规则。
+
+（实际上，JS质询也会占用不小的时间）
+
+
+##### WAF规则
+
+&nbsp;
+质询
+```质询
+(http.host eq "你的域名") or (http.host eq "你的子域名")
+```
+选择操作：托管质询
+
+&nbsp;
+防恶意爬虫
+```防恶意爬虫
+(not cf.client.bot and not ip.geoip.country in {"CN" "HK" "JP" "MO" "SG" "TW" "US"}) or (cf.threat_score ge 5) or (not http.user_agent contains "Mozilla/") or (not http.request.version in {"HTTP/2" "HTTP/3" "SPDY/3.1"})
+```
+选择操作：阻止
+
+&nbsp;
+阻止页面内容爬取
+```阻止页面内容爬取
+(http.request.uri.path contains ".php")
+```
+选择操作：阻止
+
+##### 速率限制规则
+
+&nbsp;
+速率限制
+```速率限制
+(http.request.uri.path contains "/")
+```
+当速率超过 *100* 每 *10秒钟*
+
+选择操作：阻止 - 默认 Cloudflare 速率相应限制
+
+##### HTTP DDoS 攻击防护
+
+&nbsp;
+替代名称：ddos
+
+规则操作集：阻止
+
+规则集敏感度：高
+
 
 ## 其他
 ### 问题
@@ -175,3 +229,5 @@ $ hexo clean
 [在 GitHub Pages 上部署 Hexo](https://hexo.io/zh-cn/docs/github-pages)  
 [Redefine快速开始](https://redefine-docs.ohevan.com/getting-started)  
 [配置CloudFlare WAF强制交互式质询让你的网站稳如泰山](https://sharpgan.com/using-cloudflare-waf-to-protect-your-website/)  
+[简单操作让你的网站不受恶意流量恶意爬虫威胁！Cloudflare防火墙部署指南](https://blog.csdn.net/qq_73142349/article/details/134252695)  
+[Cloudflare五秒盾、JS质询、托管质询以及交互式质询的区别](https://lot.pm/cloudflare-challenge.html)  

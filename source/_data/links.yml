@@ -12,7 +12,7 @@
   list: 
   - name: Royenheart
     link: https://royenheart.com/
-    description: Pasationous·Lain·Hasbrony·Aisling·RoyenHeart
+    description: Hear, Feel, Think
     avatar: https://royenheart.com/static/img/baa9bb522e48bc859fc37bc0b5ac9785.avatar-small.webp
     thumbnail: https://royenheart.com/static/img/baa9bb522e48bc859fc37bc0b5ac9785.avatar-small.webp
 
@@ -21,4 +21,11 @@
     description: Tifa's Blog
     avatar: https://tifa-233.com/images/ava.png
     thumbnail: https://tifa-233.com/images/ava.png
+
+  - name: SignKirigami
+    link: https://krgm.moe/
+    description: 生活像一杯脏咖啡
+    avatar: https://avatars.githubusercontent.com/u/20960986?v=4
+    thumbnail: https://avatars.githubusercontent.com/u/20960986?v=4
+
 
