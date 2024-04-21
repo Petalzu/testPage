@@ -4,7 +4,7 @@ date: 2023-01-01 00:00:00
 categories: [笔记]
 tags: [hello world]
 sticky: 999
-thumbnail: /images/wallhaven-wqery6-dark.webp
+thumbnail: /images/page0.webp
 expires: 2024-04-21 16:34
 ---
 直面恐惧，创造未来。
