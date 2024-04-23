@@ -576,33 +576,6 @@ for (size_t i = start_i; i < end_i; i++) {
 但是呃失败了  
 我猜可能是数组越界了，因为没有考虑block_size可能不能被m整除的情况，但这方面我不是很熟悉
 
-```bash
-e测试矩阵规模：1000 1000 1000
-每个数据测量 1 次
-[head:23304] *** Process received signal ***
-[head:23304] Signal: Segmentation fault (11)
-[head:23304] Signal code: Invalid permissions (2)
-[head:23304] Failing at address: 0x7fccb18cf000
-[head:23304] [ 0] /lib/x86_64-linux-gnu/libpthread.so.0(+0x12980)[0x7fccbfe2d980]
-[head:23304] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x18e9df)[0x7fccbfbb89df]
-[head:23304] [ 2] /usr/local/openmpi/lib/libopen-pal.so.40(+0x4e73c)[0x7fccbf4a873c]
-[head:23304] [ 3] /usr/local/openmpi/lib/libmpi.so.40(ompi_datatype_sndrcv+0x54f)[0x7fccc0a7a78f]
-[head:23304] [ 4] /usr/local/openmpi/lib/libmpi.so.40(ompi_coll_base_scatter_intra_basic_linear+0x1aa)[0x7fccc0abfffa]
-[head:23304] [ 5] /usr/local/openmpi/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_scatter_intra_dec_fixed+0x65)[0x7fccb2d80dc5]
-[head:23304] [ 6] /usr/local/openmpi/lib/libmpi.so.40(PMPI_Scatter+0x1a7)[0x7fccc0aa2f97]
-[head:23304] [ 7] ./matrix_cal_mpi_change[0x406876]
-[head:23304] [ 8] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fccbfa4bc87]
-[head:23304] [ 9] ./matrix_cal_mpi_change[0x4051da]
-[head:23304] *** End of error message ***
---------------------------------------------------------------------------
-Primary job  terminated normally, but 1 process returned
-a non-zero exit code. Per user-direction, the job has been aborted.
---------------------------------------------------------------------------
---------------------------------------------------------------------------
-mpirun noticed that process rank 0 with PID 0 on node head exited on signal 11 (Segmentation fault).
---------------------------------------------------------------------------
-```
-
 我另一个想法是将矩阵循环划分给各个进程，使其适应L1 cache，但仍然不知其可实现性如何  
 std::vector 应该也有优化方法，比如说使用其它类型的存储方式  
 也许使用bcc的cachestat和cachetop，以及pcstat会有更多的发现
@@ -704,7 +677,6 @@ perf script -i perf.data &> perf.unfold
 /root/FlameGraph-master/stackcollapse-perf.pl perf.unfold &> perf.folded
 /root/FlameGraph-master/flamegraph.pl perf.folded > perf_o_m.svg
 ```
-![Alt text](perf/perf_o_m.svg)
 
 #### 编译器相关优化
 ```bash
