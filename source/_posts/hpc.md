@@ -580,7 +580,7 @@ for (size_t i = start_i; i < end_i; i++) {
 std::vector 应该也有优化方法，比如说使用其它类型的存储方式  
 也许使用bcc的cachestat和cachetop，以及pcstat会有更多的发现
 
-后记：看HPC那篇。
+后记：看HPCGame那篇。
 
 ### SIMD
 
