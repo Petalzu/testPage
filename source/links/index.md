@@ -24,7 +24,7 @@ type: links
 ### 本站信息
 ```yaml
 - name: Petalzu
-  link: https://petalzu.github.io
+  link: https://petalzu.top
   description: Face the fear, create the future.
-  avatar: https://petalzu.github.io/images/106128925.webp
+  avatar: https://petalzu.top/images/106128925.webp
 ```
