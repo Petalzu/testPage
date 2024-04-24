@@ -200,6 +200,9 @@ navbar:
     Links: 
       icon: fa-regular fa-link
       path: /links/
+    RSS: 
+      icon: fa-regular fa-rss
+      path: /sitemap.xml
     #  submenus:
     #    Link1: https://royenheart.com/
     #     Link2: /link2

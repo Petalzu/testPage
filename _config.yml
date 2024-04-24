@@ -94,7 +94,14 @@ pagination_dir: page
 #ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
+
+#Feed Atom
+feed:
+  type: rss2
+  path: sitemap.xml
+  limit: 20
+  hub:
+  content: false
 ## Themes: https://hexo.io/themes/
 theme: redefine
 
