@@ -25,7 +25,7 @@ defaults:
   # Favicon
   favicon: /images/106128925.webp
   # Site logo
-  logo: 
+  logo: /images/106128925.webp
   # Site avatar
   avatar: /images/106128925.webp
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -111,8 +111,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/freecompress-bg-light.webp # light mode
-    dark: /images/freecompress-bg-dark.webp # dark mode
+    light: /images/back.png # light mode
+    dark: /images/back.png # dark mode
   # Home banner title
   title: Face the fear, create the future.
   # Home banner subtitle
