@@ -452,8 +452,8 @@ https://lab.cs.tsinghua.edu.cn/hpc/doc/faq/binding/#mpi-openmp
 
 进程/线程亲和度应该指其在指定某个CPU核上尽量长时间运行而不被迁移。比如，linux内核调度器会倾向于减少进程/线程迁移；或者将进程/线程直接绑定到CPU核上。  
 
-机器的NUMA结构如下：  
-![Alt text](numa.png)
+查看机器的NUMA结构如下：
+![NUMA](/images/hpc/numa.png)  
 
 Intel的openmp有一个特殊的api实现绑定  
 https://www.intel.com/content/www/us/en/docs/cpp-compiler/developer-guide-reference/2021-8/thread-affinity-interface.html  
@@ -484,7 +484,7 @@ mpirun -np 4 -x OMP_NUM_THREADS=4 -x OMP_PROC_BIND=close -x  OMP_PLACES=cores  -
 |  3  | 16.1317 | 15.9645 | 8.18908 | 8.13617 | 4.47034 |
 |  4  | 16.0732 | 15.9364 | 8.1226  | 8.11981 | 4.46143 |
 
-![Alt text](bound.png)
+![bound](/images/hpc/bound.png)
 
 在测试中，每个线程绑定到一个 core，线程在 socket 上连续分布（分别绑定到 core 0,1,2,3）  
 根据结果所示，其耗时均值均略小于未绑定
@@ -785,6 +785,8 @@ nvcc -I../inc matrix_cal_cuda.cu -o matrix_cal_cuda -arch sm_86
 ./matrix_cal_cuda
 /home/
 ```
+![nsight](/images/hpc/nsight.png)
+
 #### 对分析报告的简短理解
 
 有cpu的使用和时长，gpu显存的使用timeline  
@@ -913,7 +915,7 @@ OPENMPI 的软件体系结构包括以下几个层次：
 在处理多种网络通信方面，MPI 保证了一对等级之间的消息是非超越的，这限制了什么和何时可以通信。这并不排除同时传输多个消息，只要网络允许，无论请求是顺序发布的还是来自多个线程。OPENMPI 利用多个网络连接（如果有多个接口提供连接性）。
 
 ## 后记
-要学的还有很多，未知在等待我们，
+要学的还有很多，未知在等待我们。
 
 每章节副标题出自纪伯伦《先知》
 
