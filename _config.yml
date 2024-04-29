@@ -110,4 +110,4 @@ theme: redefine
 deploy:
   type: git
 
-all_minifier: true
+all_minifier: false

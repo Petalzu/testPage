@@ -1,6 +1,7 @@
 ---
 title: AI少女的存活千年 --浅谈从ARG到人工智能 VTuber Neuro-Sama
 date: 2024-02-14 21:14:39
+updated: 2024-02-14 21:14:39
 tags: [Neuro-Sama,AI,ARG]
 categories: [杂谈]
 thumbnail: /images/neuro_2.jpg

@@ -1,6 +1,7 @@
 ---
 title: Petal 人物设定
 date: 2023-01-01 10:16:20
+updated: 2024-01-19 00:00:00
 tags: [Petal,Touhou Project]
 cover: /images/petal.webp
 categories: [散文]

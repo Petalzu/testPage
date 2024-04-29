@@ -1,7 +1,8 @@
 ---
-title: FRDM-KL25Z&HC6800-ES V2.0 从零开始
+title: FRDM-KL25Z&HC6800-ES V2.0 从零开始玩开发板
 date: 2024-03-09 16:54:03
-tags: [嵌入式,FRDM-KL25Z,HC6800-ES V2.0]
+updated: 2024-03-09 16:54:03
+tags: [嵌入式,开发板,FPGA,硬件]
 categories: [笔记]
 thumbnail: /images/fpga/0.jpg
 ---

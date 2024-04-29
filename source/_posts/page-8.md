@@ -1,6 +1,7 @@
 ---
 title: N A M E
 date: 2024-02-21 14:16:28
+updated: 2024-02-21 14:16:28
 tags: [Touhou Project,幻想战闻录]
 categories: [同人文]
 author: Petal

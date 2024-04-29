@@ -1,11 +1,12 @@
 ---
 title: Face the fear, create the future.
-date: 2023-01-01 00:00:00
+date: 2024-01-19 00:00:00
+updated: 2024-04-29 09:48:00
 categories: [笔记]
 tags: [hello world]
 sticky: 999
 thumbnail: /images/page0.webp
-expires: 2024-04-21 16:34
+expires: 2024-04-29 09:48:00
 ---
 直面恐惧，创造未来。
 
@@ -220,6 +221,21 @@ petalzu.top #替换为你的域名
 - 在hexo server中显示标签/分类/文章数目混乱，以及出现已删除的页面的情况，关闭server并使用如下命令：
 ```bash
 $ hexo clean
+```
+- 如果启用了 all_minifier: true，可能会遇到以下问题：  
+```bash
+FATAL Something's wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html
+Error: write EOF
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)
+```
+暂时只能通过关闭图像压缩解决：
+```bash
+all_minifier: false
+```
+- 如果 excerpt 为空，会出现以下报错
+```bash
+ERROR Process failed:
+ValidationError: `null` is not a string!
 ```
 
 ### 建议

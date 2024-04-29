@@ -1,6 +1,7 @@
 ---
 title: 2023 Hackergame WriteUp
 date: 2024-01-31 15:00:01
+updated: 2024-01-31 15:00:01
 tags: [CTF,Hackergame]
 categories: [笔记]
 thumbnail: /images/hg2023/title.jpg
