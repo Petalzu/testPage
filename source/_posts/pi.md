@@ -1,7 +1,7 @@
 ---
 title: Raspberry Pi 4B折腾记录
 date: 2024-04-28 19:53:45
-updated: 2024-04-28 19:53:45
+updated: 2024-06-04 15:53:45
 tags: [Raspberry Pi,开发板,硬件,嵌入式]
 categories: [笔记]
 thumbnail: /images/pi/0.jpg
@@ -100,8 +100,23 @@ gpu_freq=750
 实际上树莓派甚至可以自己通过串口连接自己进行调试。
 
 
+## 其它
+命令行更换wlan链接 ：
+```bash
+#关闭当前连接
+sudo killall wpa_supplicant
 
+#扫描附近的wifi
+sudo iwlist wlan0 scan
 
+#连接wifi
+sudo wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -i wlan0
+
+#查看是否连接成功
+ifconfig wlan0
+```
+
+树莓派的wlan链接是2.4GHz频率的，如果热点连接需要设置
 
 ## 参考链接
 [Getting started - Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/getting-started.html#getting-started-with-your-raspberry-pi)
