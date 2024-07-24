@@ -242,7 +242,7 @@ ERROR Process failed:
 ValidationError: `null` is not a string!
 ```
 
-- [Cloudflare SSL边缘证书全部备份的解决方法 同为 ERR_SSL_VERSION_OR_CIPHER_MISMATCH 问题的解决方法](https://petalzu.top/2024/01/18/page/)
+- [Cloudflare SSL边缘证书全部备份的解决方法 同为 ERR_SSL_VERSION_OR_CIPHER_MISMATCH 问题的解决方法](https://petalzu.top/2024/07/24/cloudflare/)
 ### 建议
 除有必要，否则不推荐一键部署
 
