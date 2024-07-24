@@ -91,3 +91,5 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/<ZoneID>/ssl/universal
 ## 参考链接
 更多使用问题：[Face the fear, create the future.](https://petalzu.top/2024/01/18/page/)
 [Cloudflare 免费版自定义切换边缘证书](https://zikin.org/cloudflare-set-edge-cert/)
+
+一并感谢我的好友 ThTsOd 的帮助。
