@@ -1,9 +1,9 @@
 ---
 title: Face the fear, create the future.
 date: 2024-01-19 00:00:00
-updated: 2024-04-29 09:48:00
+updated: 2024-07-24 14:30:05
 categories: [笔记]
-tags: [hello world]
+tags: [hello world,hexo,cloudflare,GitHub Pages,hexo-theme-redefine]
 sticky: 999
 thumbnail: /images/page0.webp
 expires: 2024-04-29 09:48:00
@@ -217,11 +217,14 @@ petalzu.top #替换为你的域名
 ## 其他
 ### 问题
 - Redefine v2.6.1 疑似与 hexo-renderer-marked 6.3.0版本不兼容
+
 - Redefine v2.6.1 页脚部署时间计算以及页面浏览量 与 Cloudflare Rocket Loader不兼容，建议关闭
+
 - 在hexo server中显示标签/分类/文章数目混乱，以及出现已删除的页面的情况，关闭server并使用如下命令：
 ```bash
 $ hexo clean
 ```
+
 - 如果启用了 all_minifier: true，可能会遇到以下问题：  
 ```bash
 FATAL Something's wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html
@@ -232,12 +235,14 @@ Error: write EOF
 ```bash
 all_minifier: false
 ```
+
 - 如果 excerpt 为空，会出现以下报错
 ```bash
 ERROR Process failed:
 ValidationError: `null` is not a string!
 ```
 
+- [Cloudflare SSL边缘证书全部备份的解决方法 同为 ERR_SSL_VERSION_OR_CIPHER_MISMATCH 问题的解决方法](https://petalzu.top/2024/01/18/page/)
 ### 建议
 除有必要，否则不推荐一键部署
 
