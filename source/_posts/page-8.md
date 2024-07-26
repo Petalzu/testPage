@@ -202,4 +202,4 @@ excerpt: 在错综复杂地交织的人工沟堑的某处角落内，黑暗之�
 
 
 
-[幻想战闻录鬼之章评委悠霖推荐](https://book.zri.moe/book/694)
+此文被[幻想战闻录鬼之章](https://book.zri.moe/book/694)评委悠霖推荐
