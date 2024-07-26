@@ -113,10 +113,8 @@ def posted(url, index):
     res = requests.post(url, headers=headers, data=json.dumps({"id": index}))
     print(res.text)
 
-
 for i in range(0, len(lst)):
     Timer(lst[i][0], posted, (urls, lst[i][1])).start()
-
 
 flag = requests.post(url="http://202.38.93.111:10021/api/getflag", headers=headers)
 print(flag)
