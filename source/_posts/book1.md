@@ -1,6 +1,7 @@
 ---
 title: 成为神话前的程序 ——试读《人月神话》
 date: 2024-09-05 19:10:48
+updated: 2024-09-05 19:10:48
 tags: [书评]
 categories: [杂谈]
 thumbnail: /images/others/mmm.jpg
