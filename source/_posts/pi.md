@@ -1,5 +1,5 @@
 ---
-title: Raspberry Pi 4B折腾记录
+title: Raspberry Pi 4B 折腾记录
 date: 2024-04-28 19:53:45
 updated: 2024-06-04 15:53:45
 tags: [Raspberry Pi,开发板,硬件,嵌入式]
