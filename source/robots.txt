@@ -27,4 +27,4 @@ Disallow: /*.js
 Disallow: /*.css
 
 # 网站地图Sitemap
-Sitemap: https://www.petalzu.top/sitemap.xml
+Sitemap: https://petalzu.top/sitemap.xml
