@@ -225,7 +225,9 @@ petalzu.top #替换为你的域名
 #### 严格配置
 创建如下规则，并对表达式或选项进行如下配置：
 
-<img src="/images/page/1.jpg" alt="neuro" width="50%">
+<div style="text-align: center;">
+  <img src="/images/page/1.jpg" alt="配置" width="50%">
+</div>
 &nbsp;
 
 放行爬虫

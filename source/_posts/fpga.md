@@ -15,8 +15,9 @@ FRDM-KL25Z有[官网页面](https://www.nxp.com.cn/design/design-center/developm
 
 需要注意的是，需要提前下载驱动[P&E OpenSDA驱动](www.pemicro.com/opensda)。
 
-<img src="/images/fpga/1.jpg" alt="fpga" width="50%">
-<center>FRDM-KL25Z</center>
+<div style="text-align: center;">
+  <img src="/images/fpga/1.jpg" alt="FRDM-KL25Z" style="width: 50%;">
+</div>
 &nbsp;
 
 可以在引导加载程序模式下保存最新固件，在按住 USB 连接器之间的小按钮的同时，将 Freedom 板插入标有 SDA 的连接器，此方法只适用于 Windows 7 或更早的计算机来更新固件。
@@ -25,24 +26,27 @@ FRDM-KL25Z有[官网页面](https://www.nxp.com.cn/design/design-center/developm
 
 NXP社区有社区开发者[入门参考的帖子](https://www.nxpic.org.cn/module/forum/thread-549104-1-1.html)，官方也有教程：[FRDM-KL25Z快速入门](https://www.nxp.com.cn/document/guide/getting-started-with-the-frdm-kl25z:NGS-FRDM-KL25Z)。
 
-<img src="/images/fpga/0-1.jpg" alt="fpga" width="50%">
-<center>SDK</center>
+<div style="text-align: center;">
+  <img src="/images/fpga/0-1.jpg" alt="SDK" style="width: 50%;">
+</div>
 &nbsp;
 
 FRDM-KL25Z的烧写则极为简单，在其官网介绍页中也提到了它的兼容性接口和“大容量存储设备闪存编程接口(默认) - 无需安装任何工具即可评估演示应用”，直观感受就是写入执行文件即可。在其官网提供的FRDM-KL25Z Quick Start Package中有.srec文件，直接拷入Bootloader磁盘里即可完成MCU的程序烧写。
 
 在quick start package的Precompiled Examples中，提供比如[FRDM-KL25Z快速入门](https://www.nxp.com.cn/document/guide/getting-started-with-the-frdm-kl25z:NGS-FRDM-KL25Z)文档中所提到的”气泡水平仪“演示，可以用板载加速度传感器调整灯光。当板水平时，RGB LED熄灭；当板倾斜时，红色或绿色LED根据X轴和Y轴上的倾斜度逐渐发亮。还有一些如利用电容板/按钮调整灯光闪烁频率的示例，用于检验其功能。
 
-<img src="https://www.nxp.com.cn/assets/images/en/photography/FRDM-KL25Z-DEMO.jpg" alt="fpga" width="50%">
-<center>演示</center>
+<div style="text-align: center;">
+  <img src="https://www.nxp.com.cn/assets/images/en/photography/FRDM-KL25Z-DEMO.jpg" alt="演示" style="width: 50%;">
+</div>
 &nbsp;
 
 作为一个非常小巧轻便的开发板，FRDM-KL25Z的功能还是很强大的，有很多的外设，比如LED、按键、电容触摸、加速度传感器等等，可以用来做很多有趣的东西。兴许可以用到姿态检测之类，或者计步器。
 
 ## HC6800-ES V2.0
 
-<img src="/images/fpga/2.jpg" alt="fpga" width="50%">
-<center>HC6800-ES V2.0</center>
+<div style="text-align: center;">
+  <img src="/images/fpga/2.jpg" alt="HC6800-ES V2.0" style="width: 50%;">
+</div>
 &nbsp;
 
 普中的这块板子就是非常典型的STM32开发板了，加上附带的组件，可以说它几乎应有尽有。我使用的是[keil uVision5](https://www.keil.com/download/product/) 和 [普中ISP](https://soft.3dmgame.com/down/217430.html)(3dm真是什么都有)进行开发，烧写和调试。推荐一个视频：[新手必看:普中科技51单片机HC6800 v2.0 的下载程序教程，注意事项，A2开发板的区别，stc89c51芯片](https://www.bilibili.com/video/BV1x34y1a7Cp/?vd_source=72bd08f8e448019af177068235d25f83)

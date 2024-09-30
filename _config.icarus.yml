@@ -123,6 +123,8 @@ navbar:
         关于: /about
         #Links: /links
         友链: /links
+        #masonry: /masonry
+        相册: /masonry
     # Links to be shown on the right of the navigation bar
     #links:
     #    Download on GitHub:
@@ -241,7 +243,7 @@ comment:
     #    qrcode: ''
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-#禁用分享
+#
 #share:
     #type: addtoany
     # URL to the ShareThis share plugin script

@@ -20,7 +20,7 @@ toc: true
 
 - 解题思路：正常玩通关即可。
 - flag：NepCTF{50c505f4-2700-11ef-ad49-00155d5e2505}
-- 通关截图：<img src="/images/ctf/nepctf2024/2.png" alt="neuro" width="50%">
+- 通关截图：<img src="/images/ctf/nepctf2024/2.png" alt="通关截图" width="50%">
 - 碎碎念：黑神话悟空的强力对手，IGN评分⑨.⑨，TGA年度最佳预定。后续会出dlc吗？
 <div STYLE="page-break-after: always;"></div>
 
@@ -31,7 +31,7 @@ toc: true
 - 解题思路：在下载下来的3d建模的底部有一个二维码，搜索鉴定为汉信码。
 - 参考：https://www.qrcode-tiger.com/zh-cn/different-types-of-qr-codes
 - flag：NepCTF{6e766b59-23d1-395c26d708a4}
-- 通关截图：<img src="/images/ctf/nepctf2024/3.png" alt="neuro" width="50%">
+- 通关截图：<img src="/images/ctf/nepctf2024/3.png" alt="通关截图" width="50%">
 - 碎碎念：把你nepnep掉！
 
 
@@ -42,7 +42,7 @@ toc: true
 
 - 解题思路：发现jfif文件头，提取出来，文件头有1313个，尾233个，没有遇到尾自动补全。然后用消失的眼角膜看出来一千张图中滚动的flag。
 - flag：flag{Th3_c4mer4_takes_c1ear_pictures}
-- 通关截图：<img src="/images/ctf/nepctf2024/4.png" alt="neuro" width="50%"><img src="/images/ctf/nepctf2024/5.png" alt="neuro" width="50%"><img src="/images/ctf/nepctf2024/6.png" alt="neuro" width="50%"><img src="/images/ctf/nepctf2024/7.png" alt="neuro" width="50%">
+- 通关截图：<img src="/images/ctf/nepctf2024/4.png" alt="通关截图" width="50%"><img src="/images/ctf/nepctf2024/5.png" alt="通关截图" width="50%"><img src="/images/ctf/nepctf2024/6.png" alt="通关截图" width="50%"><img src="/images/ctf/nepctf2024/7.png" alt="通关截图" width="50%">
 - 碎碎念：请选择你的拍屏教派。
 
 脚本如下
@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
 - 解题思路：玩一晚上通关，发现提示flag在vmu里。通过查wiki得知vmu是一种显示设备。模拟器设置里打开show in vmu，看左上角滚动的flag。
 - flag：NepCTF{Celebrating...Tetris_40TH_Anniversary!}
-- 通关截图：<img src="/images/ctf/nepctf2024/8.png" alt="neuro" width="50%">
+- 通关截图：<img src="/images/ctf/nepctf2024/8.png" alt="通关截图" width="50%">
 - 碎碎念：玩着玩着安详地睡着了。
 
 <div STYLE="page-break-after: always;"></div>
@@ -119,7 +119,7 @@ if __name__ == "__main__":
 *玩，需要用到里技*
 - 解题思路：随机到边缘跳板少的，宏绑定space + 50ms 贴墙开启飞升之路。
 - flag：NepCTF{d433dfc5339ff746f6c1f8c5472bac18e4d65f2f0fb1a9d5}
-- 通关截图：<img src="/images/ctf/nepctf2024/9.png" alt="neuro" width="50%">
+- 通关截图：<img src="/images/ctf/nepctf2024/9.png" alt="通关截图" width="50%">
 - 碎碎念：并非取消。跳跃游戏偶遇neuro，连跳吸附强如怪物，拼尽全力无法战胜。
 
 

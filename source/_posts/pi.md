@@ -5,7 +5,7 @@ updated: 2024-06-04 15:53:45
 tags: [Raspberry Pi,开发板,硬件,嵌入式]
 categories: [笔记]
 thumbnail: /images/pi/0.jpg
-petalzu /images/pi/0.jpg
+cover: /images/pi/0.jpg
 ---
 树莓派是一个高度集成化的微型电脑，同时保留了GPIO接口，可以通过这些接口连接各种传感器、执行器等外设，实现各种功能。树莓派的操作系统可以通过SD卡进行安装，同时也支持通过USB接口连接硬盘、U盘等存储设备。
 <!-- more -->
@@ -15,6 +15,7 @@ You can set up your Raspberry Pi as an interactive computer with a desktop, or a
 
 这次折腾的是树莓派4B，配置如下：
 
+```bash
 Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
 1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE
@@ -32,13 +33,14 @@ Micro-SD card slot for loading operating system and data storage
 5V DC via GPIO header (minimum 3A*)
 Power over Ethernet (PoE) enabled (requires separate PoE HAT)
 Operating temperature: 0 – 50 degrees C ambient
-
+```
 
 ## 起步
 使用官方提供的[Raspberry Pi Imager工具](https://www.raspberrypi.com/software/)，可以很方便的将系统镜像写入SD卡中，然后插入树莓派的SD卡槽中，连接电源，即可启动。
 
-<img src="/images/pi/1.png" alt="pi" width="50%">
-<center>Raspberry Pi Imager</center>
+<div style="text-align: center;">
+  <img src="/images/pi/1.png" alt="Raspberry Pi Imager" width="50%">
+</div>
 &nbsp;
 
 一开始打算试试最近刚出的[ubuntu 24.04 LTS](https://cn.ubuntu.com/blog/canonical-releases-ubuntu-24-04-noble-numbat_cn)，正好镜像烧录工具里也更新了这个版本。然而启动起来非常卡顿，转而使用了官方的[Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)。
@@ -65,8 +67,9 @@ arm_freq=2000
 gpu_freq=700
 ```
 重启后查看频率是否生效。
-<img src="/images/pi/2.png" alt="pi" width="50%">
-<center>超频</center>
+<div style="text-align: center;">
+  <img src="/images/pi/2.png" alt="超频" width="50%">
+</div>
 &nbsp;
 
 目前测试的最大超频配置如下，设置成如下配置可能无法启动：
@@ -83,10 +86,6 @@ gpu_freq=750
 首先在外壳和CPU，内存等之间加入导热垫，将热量传导到外壳上，然后在外壳上加入风扇。
 
 修改思路是使用一个3/4pin的风扇，将线头剪掉后焊接上杜邦线，然后通过GPIO口控制风扇的开关。零火线分别接到GPIO的GND 和 5V上，PWM线接到任意GPIO口上，这里使用的是18。
-
-<img src="/images/pi/3.jpg" alt="pi" width="50%">
-<center>风扇</center>
-&nbsp;
 
 在树莓派 设置配置中，可以管理fan的开关、接口以及工作温度。
 

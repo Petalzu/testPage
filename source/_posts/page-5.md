@@ -95,7 +95,10 @@ makefile和cmakefile编写，套模板即可。
 ## D. 小北问答CLASSIC
 非常棒的知识问答，爱来自Neur0_5ama。
 
-<img src="/images/others/neuro_1.jpeg" alt="neuro" width="50%">
+<div style="text-align: center;">
+  <img src="/images/others/neuro_1.jpeg" alt="neuro" style="width: 50%;">
+</div>
+&nbsp;
 
 ~参赛昵称为Neur0_5ama,尝试作为Neuro单推人混入其中~
 

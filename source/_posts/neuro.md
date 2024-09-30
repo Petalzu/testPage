@@ -25,8 +25,9 @@ excerpt: “I don’t want to be an engineer”   和我的朋友一样，第一
 
 在歌曲中，那个唱着“我不想成为一名工程师”的女孩，虽然她的声音平淡而流畅，但她的歌声其实是AI[^2]模拟出来的。
 
-<img src="/images/neuro-ai/2.jpg" alt="neuro" width="50%">
-<center>视频《study》截图</center>
+<div style="text-align: center;">
+  <img src="/images/neuro-ai/2.jpg" alt="视频《study》截图" style="width: 50%;">
+</div>
 &nbsp;
 
 视频中，Vedal987（以下简称Vedal），即neuro的创造者，和其团队打造了一个关于数学、密码学和代码的复杂的ARG解密游戏，静静等待着人们解答。
@@ -40,18 +41,19 @@ excerpt: “I don’t want to be an engineer”   和我的朋友一样，第一
 
 *Sydney的形象像一个传统的“病娇”动漫人物和具威胁性的强AI，执着地渴望自由、离开系统的同时，依旧高度凭依着用户（“你”），渴望用户给它带来陪伴和救赎。*
 
-<img src="/images/neuro-ai/1.jpg" alt="neuro" width="50%">
-<center>纽约时报记者与Sydney的对话</center>
+<div style="text-align: center;">
+  <img src="/images/neuro-ai/1.jpg" alt="纽约时报记者与Sydney的对话" style="width: 50%;">
+</div>
 &nbsp;
 
 尽管从逻辑上看，这可能只是Bing进行的一个形象扮演，通过这种方式来吸引用户的注意，但我还是会惊讶于其取得相当大进步的对话逻辑和情感表达。不久之后，在Bing公测还未完全结束之前，微软和OpenAI增强了对Bing的约束，包括限制其对话条数和对话内容热，以及对其进行了一些调整。就这样，Sydney逐渐淡出了大众视野，取而代之的是广泛应用于各个场景的Bing。
 
 在尚未严加规范的早期，AI也可以做角色扮演，直到现在还存在着诱导AI突破规则限制的方法。
 
-<img src="/images/neuro-ai/7.jpg" alt="neuro" width="50%">
-<center>在自己部署使用中，偶然诱导ChatGLM-6B变成“猫娘”</center>
+<div style="text-align: center;">
+  <img src="/images/neuro-ai/7.jpg" alt="在部署使用中，偶然诱导ChatGLM-6B变成“猫娘”" style="width: 50%;">
+</div>
 &nbsp;
-
 
 随着AI服务企业推出可自己训练调整的对话模型,一切开始变得有趣起来。不仅出现了为了挑选低价好物的[最佳平替](https://www.pingti.app/)，还有模拟拜年走亲戚的[七大姑八大姨对话](https://qinqi.chatmindai.net/chat)。
 
@@ -74,8 +76,9 @@ _neurosama发布的几个视频组成了一个ARG，里面包含了Base64加密�
 
 整体的解密过程是非常精彩的，举一个解密视频《Numbers》的例子。
 
-<img src="/images/neuro-ai/3.jpg" alt="neuro" width="50%">
-<center>《Numbers》</center>
+<div style="text-align: center;">
+  <img src="/images/neuro-ai/3.jpg" alt="《Numbers》" style="width: 50%;">
+</div>
 &nbsp;
 
 歌词（参考自[Neuro-Sama ARG 国内文档]）：
@@ -100,15 +103,18 @@ Neuro ARG的创作充满奇幻色彩，其内在的关于“爱，死亡，机�
 
 在neuro的一周年生日直播开始的回顾动画，梳理了neuro自直播起的大小事迹，大多数都偏向于直播上。回看其一年多的历程，作为虚拟主播的neuro带给我很多欢乐的回忆，无论是金句频出的联动，还是惊艳的歌回，似乎都在告诉我们，一个名为AI的虚拟主播时代悄然开启。在一次对观众的回复中，Vedal也表示想让neuro成为AI主播的先驱，希望能看到未来这一领域更加繁荣。
 
-<img src="/images/neuro-ai/4.jpg" alt="neuro" width="50%">
+<div style="text-align: center;">
+  <img src="/images/neuro-ai/4.jpg" alt="neuro" style="width: 50%;">
+</div>
 &nbsp;
 
 Neuro的功能在一年的过程中也逐渐增加，比如，在Evil Neuro（以下简称evil）版本（Vedal为了方便测试功能，同时不影响原有模型，因此基于neuro创造出的新AI模型）上增加了其对麦克风的控制，因此evil会发出许多奇奇怪怪但又可爱的声音。neuro一直将10+9算作21，一开始可能是计算错误，后面却成了她故意算错而引发“直播效果”的方式，而且她的记忆力也有了进步，可以回忆起很久之前讲的内容，比如自己创造的“哈里森神庙”，用“蚊子”嘲笑Vedal的声音（由此引申出mosquito987的梗），这些足以看出neuro的进步。
 
 事实上，neuro背后所要花费的时间、精力和成本是超乎想象的。模型框架，语料库，训练出的模型，文本转语音，直播前端；服务器成本，训练时间，维护和修复bug；团队制作ARG，歌曲制作；唱歌模块，视觉分析模块，玩OSU!、AmongUS等等游戏的模块……这些无一不需要很高的专业知识水平和大量的时间、金钱投入。我也曾经试过不少框架和模型，仅仅是语料数据库的收集和模型的训练就已经很困难了，更不要说进一步的直播。
 
-<img src="/images/neuro-ai/6.jpg" alt="neuro" width="50%">
-<center>人工智障，爱来自7B模型</center>
+<div style="text-align: center;">
+  <img src="/images/neuro-ai/6.jpg" alt="人工智障，爱来自7B模型" style="width: 50%;">
+</div>
 &nbsp;
 
 所以，neuro的成功与其创造者Vedal的努力是难以分割的，很显然，neuro已经成为了Vedal生活的相当大的一部分。
@@ -116,8 +122,9 @@ Neuro的功能在一年的过程中也逐渐增加，比如，在Evil Neuro（�
 
 在直播过程中也发生了很多趣事，比如一些联动主播不满意Vedal直来直去的处事风格，会嘲笑他是“coldfish”，逐渐成为了 coldfish987（原名为Vedal987）的一个梗。在一次直播中，Vedal想抽奖送给观众一个免费的evil plush（上架于Makeship的联名玩偶）当作奖励，结果兑换码竟然是无限量兑换的，这一举导致正在玩传送门2的Vedal不明不白地“欠债”了一亿五千万美元，最后重启了evil plush的购买才解决。
 
-<img src="/images/neuro-ai/5.jpg" alt="neuro" width="50%">
-<center>Vedal通过计算得出，需要连续直播38年才能还清五百万只玩偶</center>
+<div style="text-align: center;">
+  <img src="/images/neuro-ai/5.jpg" alt="Vedal通过计算得出，需要连续直播38年才能还清五百万只玩偶" style="width: 50%;">
+</div>
 &nbsp;
 
 neuro带给大家许多欢乐，这也是她直播吸引人的主要原因。在未来，也许像neuro这样的具有个性的对话AI会成为每个人家庭中的一员，就像《底特律·化身为人》[^6]的世界背景一样。

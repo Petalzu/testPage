@@ -14,12 +14,14 @@ cover: /images/hg2023/title.jpg
 ## Hackergame 启动
 此题判定和音频无关，就算提交了一段空音频准确大概也是七十左右。
 <!-- more -->
-<img src="/images/hg2023/1.jpg" alt="hackgame" width="50%">
-
+<div style="text-align: center;">
+  <img src="/images/hg2023/2.jpg" alt="hackgame" width="50%">
+</div>
 提交完成后发现url上多了一个 ?similarity=75.55609410192203 的判定，将其修改为100则可以得到flag。
 
-<img src="/images/hg2023/2.jpg" alt="hackgame" width="50%">
-
+<div style="text-align: center;">
+  <img src="/images/hg2023/2.jpg" alt="hackgame" width="50%">
+</div>
 ## 猫咪小测
 一些问答题，在网上花点时间就能找到。
 
@@ -37,7 +39,9 @@ cover: /images/hg2023/title.jpg
 
 ## 更深更暗
 快速往下拖拽网页即可看到潜艇，录屏就能保留flag。
-<img src="/images/hg2023/3.jpg" alt="hackgame" width="50%">
+<div style="text-align: center;">
+  <img src="/images/hg2023/3.jpg" alt="hackgame" style="width: 50%;">
+</div>
 
 ## 旅行照片 3.0
 需要综合搜索信息的题目，根据题目提示寻找一些实验室/活动的网站，通过google地图查询即可得到信息。
@@ -50,7 +54,9 @@ cover: /images/hg2023/title.jpg
 
 打开网络请求发现，每次下棋都会向服务器发送一个post请求，包含下棋的 x y 位置，服务器会返回经计算后的棋盘。因此只需要在浏览器中修改post请求的参数，一次性发送两个位置的post就可以了。
 
-<img src="/images/hg2023/4.jpg" alt="hackgame" width="50%">
+<div style="text-align: center;">
+  <img src="/images/hg2023/4.jpg" alt="hackgame" width="50%">
+</div>
 
 ## 奶奶的睡前 flag 故事
 从图片中找到flag的方式，发现不是简单的图片隐写。通过查看010editor发现，这张图是一个截图，裁剪去了一半，但是仍然保留了下半的数据。尝试一般的恢复方法没有作用。
