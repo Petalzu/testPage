@@ -24,6 +24,8 @@ int main(int argc, char **argv, char** e_n_v_p)
     }
 }
 ```
+
+<!-- more -->
 <img src="/images/ctf/nepctf2023/1.png" alt="neuro" width="50%">
 
 # 与AI共舞的哈夫曼

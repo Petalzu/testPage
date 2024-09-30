@@ -5,17 +5,16 @@ updated: 2024-06-04 15:53:45
 tags: [Raspberry Pi,开发板,硬件,嵌入式]
 categories: [笔记]
 thumbnail: /images/pi/0.jpg
+petalzu /images/pi/0.jpg
 ---
 树莓派是一个高度集成化的微型电脑，同时保留了GPIO接口，可以通过这些接口连接各种传感器、执行器等外设，实现各种功能。树莓派的操作系统可以通过SD卡进行安装，同时也支持通过USB接口连接硬盘、U盘等存储设备。
-
+<!-- more -->
 从官网介绍上看，树莓派的定义为以下内容：
 
-{% notel default fa-info Getting started with your Raspberry Pi %}
 You can set up your Raspberry Pi as an interactive computer with a desktop, or as a headless computer accessible only over the network.
-{% endnotel %}
 
 这次折腾的是树莓派4B，配置如下：
-{% notel default fa-info Specifications %}
+
 Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.8GHz
 1GB, 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE
@@ -33,7 +32,7 @@ Micro-SD card slot for loading operating system and data storage
 5V DC via GPIO header (minimum 3A*)
 Power over Ethernet (PoE) enabled (requires separate PoE HAT)
 Operating temperature: 0 – 50 degrees C ambient
-{% endnotel %}
+
 
 ## 起步
 使用官方提供的[Raspberry Pi Imager工具](https://www.raspberrypi.com/software/)，可以很方便的将系统镜像写入SD卡中，然后插入树莓派的SD卡槽中，连接电源，即可启动。

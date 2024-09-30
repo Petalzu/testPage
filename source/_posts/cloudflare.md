@@ -11,7 +11,7 @@ categories: [笔记]
 网站配置：GitHub Pages + Cloudflare CDN + 自定义域名
 
 最近遇到了一个问题，起因是网站的ssl证书到期了，cloudflare一连发了好几份邮件提醒我修改，但我一直没有处理。直到最近，我发现网站访问出现了问题，因此想着处理一下证书的问题。
-
+<!-- more -->
 <img src="/images/cloudflare/1.png" alt="pi" width="50%">
 <center>cloudflare的提示邮件</center>
 &nbsp;

@@ -5,6 +5,7 @@ updated: 2024-01-31 15:00:01
 tags: [CTF,Hackergame]
 categories: [笔记]
 thumbnail: /images/hg2023/title.jpg
+cover: /images/hg2023/title.jpg
 ---
 
 总结一下参与[2023 Hackergame](https://hack.lug.ustc.edu.cn/)的一些题目的WriteUp。本来早该写来着，结果因为换博客框架一直拖到现在，算是补档了，rip。
@@ -12,7 +13,7 @@ thumbnail: /images/hg2023/title.jpg
 
 ## Hackergame 启动
 此题判定和音频无关，就算提交了一段空音频准确大概也是七十左右。
-
+<!-- more -->
 <img src="/images/hg2023/1.jpg" alt="hackgame" width="50%">
 
 提交完成后发现url上多了一个 ?similarity=75.55609410192203 的判定，将其修改为100则可以得到flag。

@@ -4,13 +4,15 @@ date: 2024-08-27 09:44:23
 updated: 2024-08-27 09:44:23
 tags: [CTF, NepCTF]
 categories: [笔记]
-thumbnail: /images/ctf/nepctf2024/1.png
+thumbnail: /images/ctf/nepctf2024/1.jpg
+cover: /images/ctf/nepctf2024/1.jpg
+toc: true
 ---
 
 相较于往年，今年出题师傅们为大家精心准备了 「Game」 类型的游戏赛题，融入到各个方向当中，来打一场有关网络安全的游戏吧！
 
 所以我真的是来玩游戏（
-
+<!-- more -->
 
 # Misc
 ## NepMagic —— CheckIn
