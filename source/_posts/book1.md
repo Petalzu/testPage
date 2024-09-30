@@ -4,8 +4,8 @@ date: 2024-09-05 19:10:48
 updated: 2024-09-05 19:10:48
 tags: [书评]
 categories: [杂谈]
-thumbnail: /images/others/mmm.jpg
-cover: /images/others/mmm.jpg
+thumbnail: /images/others/mmm.webp
+cover: /images/others/mmm.webp
 toc: true
 ---
 
