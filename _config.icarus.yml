@@ -39,7 +39,7 @@ head:
     open_graph:
         # Page title (og:title) (optional)
         # You should leave this blank for most of the time
-        title: Petalzu's Page - Face the fear, create the future.
+        title: 
         # Page type (og:type) (optional)
         # You should leave this blank for most of the time
         type: blog
@@ -51,13 +51,13 @@ head:
         image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: Petalzu's Page
+        site_name: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: Petalzu
+        author: 
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: Petalzu的个人网站
+        description: 
         # Twitter card type (twitter:card)
         twitter_card: 
         # Twitter ID (twitter:creator)
@@ -75,25 +75,25 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: Petalzu's Page
+        title: 
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: Petalzu的个人网站 - 直面恐惧，创造未来。
+        description: 
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: https://petalzu.top/
+        url: 
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: Petalzu
+        author: 
         # Page publisher (optional)
         # You should leave this blank for most of the time
-        publisher: Petalzu
+        publisher: 
         # Page publisher logo (optional)
         # You should leave this blank for most of the time
-        publisher_logo: /img/logo.png
+        publisher_logo: 
         # Page images (optional)
         # You should leave this blank for most of the time
-        image: /img/logo.png
+        image: 
     # Additional HTML meta tags in an array
     meta:
         # Meta tag specified in <attribute>=<value> style
@@ -102,8 +102,6 @@ head:
         - 'name=description;content="Petalzu的个人网站 - 直面恐惧，创造未来。"'
         - 'name=keywords;content="Petalzu,博客,个人网站,技术,生活,分享"'
         - 'name=author;content="Petalzu"'
-        - "name=description;content='Petalzu's Page - Face the fear, create the future.'"
-        - 'name=keywords;content="Petalzu, blog, personal website, technology, life, sharing"'
         - 'name=robots;content="index, follow"'
         - 'name=viewport;content="width=device-width, initial-scale=1.0"'
         - 'rel=canonical;href=https://petalzu.top/'
