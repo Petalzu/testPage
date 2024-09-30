@@ -5,8 +5,8 @@
 # Site
 title: Petalzu's Page
 subtitle: ''
-description: Petalzu's Personal Website
-keywords: Petalzu, Petalzu's Page, Petalzu's Personal Website, Petalzu's Blog
+description: Petalzu的个人网站
+keywords: Petalzu, Petalzu's Page, Petalzu's Personal Website, Petalzu's Blog, Petalzu的个人网站
 author: Petalzu
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -99,7 +99,7 @@ pagination_dir: page
 feed:
   type: rss2
   path: sitemap.xml
-  limit: 20
+  limit:
   hub:
   content: false
 ## Themes: https://hexo.io/themes/
@@ -110,4 +110,4 @@ theme: redefine
 deploy:
   type: git
 
-all_minifier: false
+all_minifier: true

@@ -78,7 +78,7 @@ global:
   # Whether to enable single page experience (using swup). See https://swup.js.org/. similar to pjax
   single_page: true
   # Whether to enable Preloader.
-  preloader: true
+  preloader: false
   # Whether to enable open graph
   open_graph: true
   # Google Analytics
@@ -111,8 +111,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/pst-freecompress-bg-light.webp # light mode
-    dark: /images/pst-freecompress-bg-dark.webp # dark mode
+    light: /images/0.jpg # light mode
+    dark: /images/1.jpg # dark mode
   # Home banner title
   title: Face the fear, create the future.
   # Home banner subtitle
@@ -198,10 +198,8 @@ navbar:
       path: /masonry/
     About: 
       icon: fa-regular fa-user
-      submenus:
-        我: /about
-        Github: https://github.com/Petalzu 
-        #Blog:  
+      path: /about
+      #Blog:  
         #Friends: /friends 
     Links: 
       icon: fa-regular fa-link
