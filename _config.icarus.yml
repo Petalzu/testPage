@@ -102,8 +102,6 @@ head:
         - 'name=description;content="Petalzu的个人网站 - 直面恐惧，创造未来。"'
         - 'name=keywords;content="Petalzu,博客,个人网站,技术,生活,分享"'
         - 'name=author;content="Petalzu"'
-        - 'name=robots;content="index, follow"'
-        - 'name=viewport;content="width=device-width, initial-scale=1.0"'
         - 'rel=canonical;href=https://petalzu.top/'
     # URL or path to the website's RSS atom.xml
     rss: /sitemap.xml
@@ -207,7 +205,7 @@ comment:
     # Disqus shortname
 #    shortname: ''
 # Donate plugin configurations
-#1 https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
+# https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 #donates:
     # "Afdian.net" donate button configurations
     #-
