@@ -17,23 +17,23 @@ head:
         # when there is not enough space to display full name
         short_name: Petalzu
         # The start URL of the web application
-        start_url: 
+        start_url: https://petalzu.top/
         # The default theme color for the application
-        theme_color: 
+        theme_color: default
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: 
+        background_color: default
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
         icons:
             -
                 # The path to the image file
-                src: ''
+                src: '/favicon.ico'
                 # A string containing space-separated image dimensions
-                sizes: ''
+                sizes: '48x48'
                 # A hint as to the media type of the image
-                type: 
+                type: image/ico
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
     open_graph:
