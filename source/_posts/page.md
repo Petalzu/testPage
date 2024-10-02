@@ -7,7 +7,6 @@ tags: [hello world,hexo,cloudflare,GitHub Pages,hexo-theme-redefine]
 sticky: 999
 cover: /images/page0.svg
 thumbnail: /images/page0.svg
-expires: 2024-04-29 09:48:00
 ---
 直面恐惧，创造未来。
 
@@ -297,9 +296,6 @@ petalzu.top #替换为你的域名
 
 ## 其他
 ### 问题
-- Redefine v2.6.1 疑似与 hexo-renderer-marked 6.3.0版本不兼容
-
-- Redefine v2.6.1 页脚部署时间计算以及页面浏览量 与 Cloudflare Rocket Loader不兼容，建议关闭
 
 - 在hexo server中显示标签/分类/文章数目混乱，以及出现已删除的页面的情况，关闭server并使用如下命令：
 ```bash

@@ -7,7 +7,7 @@ logo: /img/logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/logo.png
+    favicon: /favicon.ico
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -270,7 +270,7 @@ widgets:
         # Author title
         author_title: Face the fear, create the future.
         # Author's current location
-        location: 中国
+        location: Universe - Milky Way - Solar System - Earth
         # URL or path to the avatar image
         avatar: /img/logo.png
         # Whether show the rounded avatar image
