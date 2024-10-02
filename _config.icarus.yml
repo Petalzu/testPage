@@ -384,7 +384,7 @@ plugins:
     # Enable page startup animations
     animejs: false
     # Show the "back to top" button
-    back_to_top: true
+    back_to_top: false
     # Baidu Analytics plugin settings
     # https://tongji.baidu.com
     baidu_analytics:
@@ -419,7 +419,7 @@ plugins:
         # URL to your site's cookie policy
         policyLink: https://www.cookiesandyou.com/
     # Enable the lightGallery and Justified Gallery plugins
-    gallery: true
+    gallery: false
     # Google Analytics plugin settings
     # https://analytics.google.com
     google_analytics:
