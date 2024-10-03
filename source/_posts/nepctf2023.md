@@ -3,7 +3,9 @@ title: 2023 NepCTF WriteUp
 date: 2023-08-13 19:30:02
 updated: 2024-08-27 09:25:31
 tags: [CTF, NepCTF]
-categories: [笔记]
+categories: 
+    - 笔记
+    - CTF
 ---
 
 # Codes

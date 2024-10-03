@@ -3,7 +3,9 @@ title: Cloudflare SSL 边缘证书全部备份的解决方法
 date: 2024-07-24 14:28:13
 updated: 2024-07-24 14:28:13
 tags: [cloudflare, 边缘证书, ssl,GitHub Pages]
-categories: [笔记]
+categories: 
+  - 笔记
+  - 解决方案
 ---
 同为 ERR_SSL_VERSION_OR_CIPHER_MISMATCH 问题的解决方法。
 

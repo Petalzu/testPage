@@ -3,7 +3,9 @@ title: 2024 NepCTF WriteUp
 date: 2024-08-27 09:44:23
 updated: 2024-08-27 09:44:23
 tags: [CTF, NepCTF]
-categories: [笔记]
+categories: 
+    - 笔记
+    - CTF
 thumbnail: /images/ctf/nepctf2024/1.jpg
 cover: /images/ctf/nepctf2024/1.jpg
 toc: true

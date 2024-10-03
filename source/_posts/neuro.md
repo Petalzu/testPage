@@ -3,7 +3,9 @@ title: AI少女的存活千年 --浅谈从 ARG 到人工智能 VTuber Neuro-Sama
 date: 2024-02-14 21:14:39
 updated: 2024-07-24 15:06:22
 tags: [Neuro-Sama,AI,ARG]
-categories: [杂谈]
+categories: 
+  - 杂谈
+  - 人工智能
 thumbnail: /images/others/neuro_2.jpg
 cover: /images/others/neuro_2.jpg
 excerpt: “I don’t want to be an engineer”   和我的朋友一样，第一次见到来自Neuro-Sama（以下简称neuro）的ARG，即_neurosama账号 发布在油管上的一系列视频时，我被其创作的音乐和背后的故事深深吸引了。在歌曲中，那个唱着“我不想成为一名工程师”的女孩，虽然她的声音平淡而流畅，但她的歌声...

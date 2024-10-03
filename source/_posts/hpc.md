@@ -3,7 +3,9 @@ title: High Performance Computing 从编译到并行计算
 date: 2024-04-23 20:06:21
 updated: 2024-04-23 20:06:21
 tags: [HPC,超算,mpi,openmp,cuda,openblas,makefile,cmake]
-categories: [笔记]
+categories: 
+    - 笔记
+    - 计算
 ---
 
 *不要因为走了太远，而忘记为什么出发*

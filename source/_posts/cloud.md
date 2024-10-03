@@ -3,7 +3,9 @@ title: Cloud Computing & Big Data
 date: 2024-06-04 15:53:44
 updated: 2024-06-06 16:07:00
 tags: [云计算, 大数据, hadoop, ceph, spark, openstack, docker]
-categories: [笔记]
+categories: 
+  - 笔记
+  - 计算
 toc: true
 ---
 ## 前言

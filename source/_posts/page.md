@@ -5,8 +5,8 @@ updated: 2024-07-24 14:30:05
 categories: [笔记]
 tags: [hello world,hexo,cloudflare,GitHub Pages,hexo-theme-redefine]
 sticky: 999
-cover: /images/page0.svg
-thumbnail: /images/page0.svg
+cover: /images/page0.webp
+thumbnail: /images/page0.webp
 ---
 直面恐惧，创造未来。
 
