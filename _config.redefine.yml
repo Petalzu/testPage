@@ -111,8 +111,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: #/images/0.jpg # light mode
-    dark: #/images/1.jpg # dark mode
+    light: /images/0.png # light mode
+    dark: /images/1.png # dark mode
   # Home banner title
   title: Face the fear, create the future.
   # Home banner subtitle
