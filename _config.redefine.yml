@@ -379,8 +379,7 @@ inject:
     -
   # Inject custom footer html code
   footer:
-    - <a href="https://icp.gov.moe/?keyword=20244119" target="_blank">萌ICP备20244119号</a>
-    -
+    - <a href="https://icp.gov.moe/?keyword=20244119" target="_blank">萌ICP备20244119号</a> | <a href="https://foreverblog.cn/go.html" target="_blank">十年之约虫洞</a> 
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
