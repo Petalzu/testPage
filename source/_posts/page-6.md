@@ -9,11 +9,11 @@ cover: /images/hg2023/title.jpg
 ---
 
 总结一下参与[2023 Hackergame](https://hack.lug.ustc.edu.cn/)的一些题目的WriteUp。本来早该写来着，结果因为换博客框架一直拖到现在，算是补档了，rip。
-
+<!-- more -->
 
 ## Hackergame 启动
 此题判定和音频无关，就算提交了一段空音频准确大概也是七十左右。
-<!-- more -->
+
 <div style="text-align: center;">
   <img src="/images/hg2023/2.jpg" alt="hackgame" width="50%">
 </div>
