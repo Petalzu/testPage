@@ -5,7 +5,8 @@ updated: 2024-08-27 09:25:31
 tags: [CTF, NepCTF]
 categories: [笔记]
 ---
-
+此文是2023年NepCTF的WriteUp，包含了部分题目的解答。
+<!-- more -->
 # Codes
 写个c程序  
 使用##躲开关键词检测  
@@ -25,7 +26,6 @@ int main(int argc, char **argv, char** e_n_v_p)
 }
 ```
 
-<!-- more -->
 <img src="/images/ctf/nepctf2023/1.png" alt="neuro" width="50%">
 
 # 与AI共舞的哈夫曼

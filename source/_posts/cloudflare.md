@@ -1,17 +1,17 @@
 ---
-title: Cloudflare SSL 边缘证书全部备份的解决方法
+title: Cloudflare 边缘证书全部备份的解决方法
 date: 2024-07-24 14:28:13
 updated: 2024-07-24 14:28:13
 tags: [cloudflare, 边缘证书, ssl,GitHub Pages]
 categories: [笔记]
 ---
 同为 ERR_SSL_VERSION_OR_CIPHER_MISMATCH 问题的解决方法。
-
+<!-- more -->
 ## 背景
 网站配置：GitHub Pages + Cloudflare CDN + 自定义域名
 
 最近遇到了一个问题，起因是网站的ssl证书到期了，cloudflare一连发了好几份邮件提醒我修改，但我一直没有处理。直到最近，我发现网站访问出现了问题，因此想着处理一下证书的问题。
-<!-- more -->
+
 <div style="text-align: center;">
   <img src="/images/cloudflare/1.png" alt="cloudflare的提示邮件" style="width: 50%;">
 </div>

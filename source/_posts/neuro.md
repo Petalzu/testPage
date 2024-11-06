@@ -1,5 +1,5 @@
 ---
-title: AI少女的存活千年 --浅谈从 ARG 到人工智能 VTuber Neuro-Sama
+title: AI少女的存活千年 --从 ARG 到 Neuro-Sama
 date: 2024-02-14 21:14:39
 updated: 2024-07-24 15:06:22
 tags: [Neuro-Sama,AI,ARG]

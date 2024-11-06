@@ -1,6 +1,6 @@
 title: Petalzu's Page
 subtitle: ''
-description: ''
+description: Petalzu's Page
 keywords: null
 author: Petalzu
 language: zh-CN
@@ -62,6 +62,6 @@ deploy:
 feed:
   type: rss2
   path: sitemap.xml
-  limit: 20
+  limit: 30
   hub: null
   content: false
