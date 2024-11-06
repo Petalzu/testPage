@@ -1,5 +1,5 @@
 ---
-title: High Performance Computing 从编译到并行计算
+title: High Performance Computing
 date: 2024-04-23 20:06:21
 updated: 2024-04-23 20:06:21
 tags: [HPC,超算,mpi,openmp,cuda,openblas,makefile,cmake]
