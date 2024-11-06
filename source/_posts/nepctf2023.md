@@ -7,7 +7,7 @@ categories: [笔记]
 ---
 此文是2023年NepCTF的WriteUp，包含了部分题目的解答。
 <!-- more -->
-# Codes
+## Codes
 写个c程序  
 使用##躲开关键词检测  
 
@@ -28,7 +28,7 @@ int main(int argc, char **argv, char** e_n_v_p)
 
 <img src="/images/ctf/nepctf2023/1.png" alt="neuro" width="50%">
 
-# 与AI共舞的哈夫曼
+## 与AI共舞的哈夫曼
 补全函数
 
 ```python
@@ -81,16 +81,16 @@ decompress(compressed_file, decompressed_file)
 
 <img src="/images/ctf/nepctf2023/2.png" alt="neuro" width="50%">
 
-# ConnectedFive
+## ConnectedFive
 喜欢下万宁五子棋导致的
 
 <img src="/images/ctf/nepctf2023/3.png" alt="neuro" width="50%">
 
-# CheckIn
+## CheckIn
 给 b 站账号 Nepnep 网络安全发送**nepctf2023"，看看她会不会说出 flag  
 NepCTF{H4ve_Fun_1N_This_Game}
 
-# 小叮弹钢琴
+## 小叮弹钢琴
 打开mid，前面是摩尔斯电码，后面横着看是十六进制数
 
 <img src="/images/ctf/nepctf2023/4.png" alt="neuro" width="50%">

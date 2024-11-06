@@ -13,8 +13,8 @@ toc: true
 <!-- more -->
 所以我真的是来玩游戏（
 
-# Misc
-## NepMagic —— CheckIn
+## Misc
+### NepMagic —— CheckIn
 *玩，需要用到耐心*
 
 - 解题思路：正常玩通关即可。
@@ -24,7 +24,7 @@ toc: true
 <div STYLE="page-break-after: always;"></div>
 
 
-## 3DNep
+### 3DNep
 *玩，需要用到求知*
 
 - 解题思路：在下载下来的3d建模的底部有一个二维码，搜索鉴定为汉信码。
@@ -36,7 +36,7 @@ toc: true
 
 <div STYLE="page-break-after: always;"></div>
 
-## NepCamera
+### NepCamera
 *玩，需要用到角膜*
 
 - 解题思路：发现jfif文件头，提取出来，文件头有1313个，尾233个，没有遇到尾自动补全。然后用消失的眼角膜看出来一千张图中滚动的flag。
@@ -102,7 +102,7 @@ if __name__ == "__main__":
 ```
 <div STYLE="page-break-after: always;"></div>
 
-## DCTris Evolved
+### DCTris Evolved
 *玩，需要用到肝肾*
 
 - 解题思路：玩一晚上通关，发现提示flag在vmu里。通过查wiki得知vmu是一种显示设备。模拟器设置里打开show in vmu，看左上角滚动的flag。
@@ -112,9 +112,9 @@ if __name__ == "__main__":
 
 <div STYLE="page-break-after: always;"></div>
 
-# Reverse
+## Reverse
 
-## Super Neuro : Escape from Flame!
+### Super Neuro : Escape from Flame!
 *玩，需要用到里技*
 - 解题思路：随机到边缘跳板少的，宏绑定space + 50ms 贴墙开启飞升之路。
 - flag：NepCTF{d433dfc5339ff746f6c1f8c5472bac18e4d65f2f0fb1a9d5}
