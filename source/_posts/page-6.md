@@ -1,11 +1,12 @@
 ---
 title: 2023 Hackergame WriteUp
 date: 2024-01-31 15:00:01
-updated: 2024-01-31 15:00:01
+updated: 2024-11-09 14:24:50
 tags: [CTF,Hackergame]
 categories: [笔记]
 thumbnail: /images/hg2023/title.jpg
 cover: /images/hg2023/title.jpg
+toc: true
 ---
 
 总结一下参与[2023 Hackergame](https://hack.lug.ustc.edu.cn/)的一些题目的WriteUp。本来早该写来着，结果因为换博客框架一直拖到现在，算是补档了，rip。
@@ -93,7 +94,7 @@ headers = {
     "Referer": "http://202.38.93.111:10021/",
     "Accept-Encoding": "gzip, deflate",
     "Accept-Language": "zh-CN,zh;q=0.9",
-    "Cookie": "_ga=GA1.1.1354138604.1698489578; _gid=GA1.1.262453258.1698489578; _ga_R1FN4KJKJH=GS1.1.1698514591.3.0.1698514591.0.0.0; session=eyJ0b2tlbiI6Ijc1MDpNRVFDSUZGQ1lJWmtNWlFDRlFGbjZ3bURTWGRaRERwSTZLdm5lYzh1Wm9MWlM1U3FBaUFCYStqdkpkcVF4eUdRY3VIZXJuSjNlajl6ZTJ0TFJhYmVnZldsMmRveGxRPT0ifQ.ZT3KTw.CG7KVHvHPDwxOWANO6kIjUwPR7I",
+    "Cookie": "",
 }
 
 response = requests.post(url, headers=headers, data={})

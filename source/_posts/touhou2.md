@@ -6,6 +6,7 @@ tags: [Touhou Project]
 categories: [同人文]
 author: Petal
 excerpt: 四周已经彻底黑透了，我提着昏黄的小油灯走在小巷里，突然感到脸颊上微微一凉。在我疑惑地抬头看的功夫，惨白色的大片雪花已经纷纷扬扬掉下来了。
+toc: true
 ---
 
 ## 1.序章 雪国

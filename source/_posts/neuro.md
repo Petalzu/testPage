@@ -7,6 +7,7 @@ categories: [杂谈]
 thumbnail: /images/others/neuro_2.jpg
 cover: /images/others/neuro_2.jpg
 excerpt: “I don’t want to be an engineer” 和我的朋友一样，第一次见到来自Neuro-Sama时，我被其创作的音乐和背后的故事深深吸引了...
+toc: true
 ---
 
   I don't want to be an engineer /

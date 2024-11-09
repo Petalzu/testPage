@@ -141,7 +141,7 @@ footer:
         Download on GitHub:
             icon: fab fa-github
             url: https://github.com/petalzu
-    copyright: '<a href="https://icp.gov.moe/?keyword=20244119" target="_blank">萌ICP备20244119号</a> <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i> <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i> <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
+    copyright: '<a href="https://icp.gov.moe/?keyword=20244119" target="_blank">萌ICP备20244119号</a> <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i> <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i> <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i><a href="https://foreverblog.cn/go.html" target="_blank">十年之约虫洞</a>'
 # Article related configurations
 article:
     # Code highlight settings
@@ -152,7 +152,7 @@ article:
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
-        fold: unfolded
+        fold: folded
     # Whether to show estimated article reading time
     readtime: true
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date

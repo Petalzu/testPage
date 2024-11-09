@@ -6,6 +6,7 @@ tags: [Touhou Project,幻想战闻录]
 categories: [同人文]
 author: Petal
 excerpt: 在错综复杂地交织的人工沟堑的某处角落内，黑暗之中，一点红色的火光幽幽显现，微微照亮出脸部的轮廓。
+toc: true
 ---
 
 &emsp;&emsp;Ou perto ou longe, a guerra e a pátria e a vida

@@ -6,6 +6,7 @@ tags: [嵌入式,开发板,FPGA,硬件]
 categories: [笔记]
 thumbnail: /images/fpga/0.jpg
 cover: /images/fpga/0.jpg
+toc: true
 ---
 说是从零开始，其实也不然，因为FPGA是一定接触过的；然而正好符合Re0的主题，因此也在某种程度上也没问题。一些机缘巧合，我从社区借到了两块板子，NXP的FRDM-KL25Z和普中HC6800-ES V2.0，单纯出于兴趣，我决定玩一玩。
 <!-- more -->

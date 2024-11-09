@@ -6,6 +6,7 @@ tags: [Raspberry Pi,开发板,硬件,嵌入式]
 categories: [笔记]
 thumbnail: /images/pi/0.jpg
 cover: /images/pi/0.jpg
+toc: true
 ---
 树莓派是一个高度集成化的微型电脑，同时保留了GPIO接口，可以通过这些接口连接各种传感器、执行器等外设，实现各种功能。树莓派的操作系统可以通过SD卡进行安装，同时也支持通过USB接口连接硬盘、U盘等存储设备。
 <!-- more -->

@@ -7,6 +7,7 @@ tags: [hello world,hexo,cloudflare,GitHub Pages,hexo-theme-redefine]
 sticky: 999
 cover: /images/page0.svg
 thumbnail: /images/page0.svg
+toc: true
 ---
 直面恐惧，创造未来。
 
