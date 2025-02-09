@@ -80,25 +80,34 @@ name: Pages
 on:
   push:
     branches:
-      - main
+      - master # default branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # If your repository depends on submodule, please see: https://github.com/actions/checkout
+          submodules: recursive
+      - name: Use Node.js 18.16.0
+        uses: actions/setup-node@v3
         with:
           node-version: '18.16.0'
-      - uses: actions/cache@v3
+      - name: Cache NPM dependencies
+        uses: actions/cache@v3
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
           restore-keys: |
             ${{ runner.OS }}-npm-cache
-      - run: npm install
-      - run: npm run build
-      - uses: actions/upload-pages-artifact@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
   deploy:
@@ -114,6 +123,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+
 ```
 
 检查 https://<你的 GitHub 用户名>.github.io 是否已经部署成功。
