@@ -1,5 +1,5 @@
 ---
-title: Hackergame2024 WP
+title: 2024 Hackergame WP
 date: 2024-11-09 14:24:50
 updated: 2024-11-09 14:24:50
 tags: [CTF,Hackergame]

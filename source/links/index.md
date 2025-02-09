@@ -1,7 +1,6 @@
 ---
 title: Links
 date: 2024-01-19 22:23:59
-updated: 2024-07-24 14:30:05
 type: links
 ---
 
@@ -38,6 +37,7 @@ type: links
       <div style="color: rgba(255, 255, 255, 0.5);">Hear, Feel, Think</div>
     </a>
 </div>
+
 <div class="friend-link" style="width: 150px; height: 150px; background-color: black; border-radius: 15px; margin: 10px;">
     <a href="https://tifa-233.com/" target="_blank" style="display: block; border: 2px solid #000; padding: 10px; text-align: center; border-radius: 15px; width: 100%; height: 100%; color: white;">
       <img src="https://tifa-233.com/images/ava.webp" alt="Tifa" style="width: 50px; height: 50px; border-radius: 50%; margin-top: 10px;">
@@ -45,6 +45,7 @@ type: links
       <div style="color: rgba(255, 255, 255, 0.5);">Tifa's Blog</div>
     </a>
 </div>
+
 <div class="friend-link" style="width: 150px; height: 150px; background-color: black; border-radius: 15px; margin: 10px;">
   <a href="https://krgm.moe/" target="_blank" style="display: block; border: 2px solid #000; padding: 10px; text-align: center; border-radius: 15px; width: 100%; height: 100%; color: white;">
     <img src="https://avatars.githubusercontent.com/u/20960986?v=4" alt="SignKirigami" style="width: 50px; height: 50px; border-radius: 50%; margin-top: 10px;">
@@ -52,6 +53,7 @@ type: links
     <div style="color: rgba(255, 255, 255, 0.5);">生活像一杯脏咖啡</div>
   </a>
 </div>
+
 <div class="friend-link" style="width: 150px; height: 150px; background-color: black; border-radius: 15px; margin: 10px;">
   <a href="https://leonis.cc" target="_blank" style="display: block; border: 2px solid #000; padding: 10px; text-align: center; border-radius: 15px; width: 100%; height: 100%; color: white;">
     <img src="https://cravatar.cn/avatar/95e31f6808fafa1f8ef3313b6f0b10e6?s=800" alt="Leo's blog" style="width: 50px; height: 50px; border-radius: 50%; margin-top: 10px;">
@@ -59,11 +61,23 @@ type: links
     <div style="color: rgba(255, 255, 255, 0.5);">数间茅舍，藏书万卷，投老村家。</div>
   </a>
 </div>
+
 <div class="friend-link" style="width: 150px; height: 150px; background-color: black; border-radius: 15px; margin: 10px;">
-  <a href="http://www.mroldl001.top" target="_blank" style="display: block; border: 2px solid #000; padding: 10px; text-align: center; border-radius: 15px; width: 100%; height: 100%; color: white;">
+  <a href="https://www.mroldl001.top" target="_blank" style="display: block; border: 2px solid #000; padding: 10px; text-align: center; border-radius: 15px; width: 100%; height: 100%; color: white;">
     <img src="https://www.mroldl001.top/wp-content/uploads/2024/07/1721900985-%E7%BE%8E%E6%B3%A2-%E8%99%9A%E7%A5%9E%E8%B5%A0-%E6%AD%A3%E6%96%B9%E5%BD%A2%E5%8D%8A%E8%BA%AB.png" alt="MR_Blog" style="width: 50px; height: 50px; border-radius: 50%; margin-top: 10px;">
     <div style="color: white;">MR_Blog</div>
     <div style="color: rgba(255, 255, 255, 0.5);">只剩飘飘的清风，只剩悠悠的远钟</div>
   </a>
 </div>
+
+<div class="friend-link" style="width: 150px; height: 150px; background-color: black; border-radius: 15px; margin: 10px;">
+  <a href="https://www.lizou.ltd" target="_blank" style="display: block; border: 2px solid #000; padding: 10px; text-align: center; border-radius: 15px; width: 100%; height: 100%; color: white;">
+    <img src="https://www.lizou.ltd/wp-content/uploads/2021/11/头像.jpg" alt="lizou" style="width: 50px; height: 50px; border-radius: 50%; margin-top: 10px;">
+    <div style="color: white;">lizou</div>
+    <div style="color: rgba(255, 255, 255, 0.5);">自诩庸俗无凌云壮志，作耳畔听风蜚语判词</div>
+  </a>
+</div>
+
+
+
 </div>
