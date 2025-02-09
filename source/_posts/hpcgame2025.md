@@ -9,8 +9,12 @@ cover: /images/hpc/hpcgame2025/0.jpg
 toc: true
 ---
 
-今年如约参加了第二届 [PKU HPCGame](https://hpcgame.pku.edu.cn/org/2df8f692-0316-4682-80cd-591732b1eda6/contest/74f9ea35-b9b9-460e-8584-d8f829b5d9dc)，精彩的题目和更加易于使用的集群环境的更新让人耳目一新。
+今年如约参加了第二届 [PKU HPCGame](https://hpcgame.pku.edu.cn/org/2df8f692-0316-4682-80cd-591732b1eda6/contest/74f9ea35-b9b9-460e-8584-d8f829b5d9dc)，精彩的题目和更加易于使用的集群环境的更新让人耳目一新，尤其是画板题目的各种梗（
 <!-- more -->
+
+![画板](/images/hpc/hpcgame2025/3.png)  
+（Neuro Sama，Techmino，tetr.io，还有未画完的芙兰都是我画的）
+
 本次比赛的一大遗憾是最后才发现 PVC 挂载到 root 时会导致 .bashrc 被覆盖导致 module 环境变量丢失，间接导致 J 题没有做出来。但总体来说，成绩比去年稍微好一些，还需要继续努力。本次比赛首次设置了 WriteUp 的提交，因此正好方便了我整理这篇文章。
 
 ## A. 签到 (100/100)
